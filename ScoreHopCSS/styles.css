@@ -1,0 +1,91 @@
+.sbox {
+    position: absolute; 
+    z-index: 950;
+    top:70%;
+    width:100%;
+}
+
+input{
+    width: 10px;
+}
+
+#map { 
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    /* top: 85px; */
+}
+/* .logoimage {
+    position: absolute;
+    z-index: 900;
+    top: 1%;
+    display: flex;
+    justify-content: center;
+} */
+
+#logoContainer {
+    position: absolute;
+    z-index: 900;
+    top: 1%;
+    left: 30%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* img{
+
+    width: 30%;
+    height: 5%
+} */
+
+li {
+    list-style-type:none;
+}
+
+p {
+    margin:0px
+}
+/* #logo {
+    position:absolute; 
+    left:50%;
+    margin-left: -10%;
+    top:-20px;
+    width: 15%;
+    height:15%;
+} */
+
+ #unorder-list{  
+    max-height: 150px;
+     /* margin-bottom: 10px;  */
+    overflow:scroll; 
+    -webkit-overflow-scrolling: touch; 
+     /* width:600px; */
+}
+
+
+.searchboxcon{
+    display: flex;
+    justify-content:center;
+    /* align-items: center;  */
+    /* height: 100px; */
+}
+
+
+
+
+
+
+@media (max-width: 576px){
+    .sbox {
+        position: absolute; 
+        z-index: 950;
+        top:70%;
+        width:100%;
+    }
+
+
+
+}
+
