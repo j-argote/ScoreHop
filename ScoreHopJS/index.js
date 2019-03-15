@@ -1,3 +1,5 @@
+//displays map and icons on map
+
 // Set starting coordinates
 var map1 = L.map('map').setView([37.0902, -95.7129], 4);
 
